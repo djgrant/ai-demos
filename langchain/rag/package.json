@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "bun --env-file=../../.env index.ts"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.0.43",
+    "@langchain/core": "^0.1.51",
+    "@langchain/openai": "^0.0.23",
+    "hnswlib-node": "^3.0.0",
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.0.10"
+  }
+}

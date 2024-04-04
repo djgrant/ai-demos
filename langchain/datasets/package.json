@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "bun --env-file=../../.env index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "langsmith": "^0.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.0.10"
+  }
+}

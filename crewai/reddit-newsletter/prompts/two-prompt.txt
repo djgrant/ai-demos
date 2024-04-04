@@ -1,0 +1,39 @@
+########
+Prompt 1
+########
+
+Using the data scraped from the LocalLLama subreddit, write a report highlighting all the new AI projects or tools.
+
+Pick ALL the projects or tools from the main threads or comments. For each project you'll also need to identify the associated hyperlink to the project. Create a list of these projects in the following format:
+
+```
+[AI Project](link to project)
+```
+
+{data}
+
+##################
+Prompt 2 (GPT-4)
+##################
+
+Now, produce a markdown report in the following format:
+
+```
+{for each project in list}
+## [AI Project](link to project)
+- {Direct quotes about this project that were stated in the provided data (if there are no quotes, write "no comments")}
+- {Thoughts on how it fits within emerging AI trends}
+{/foreach}
+```
+
+##################
+Prompt 2 (Mixtral)
+##################
+
+Now, produce a markdown report. For each project that you listed in your previous answer there should be a section in the following format:
+
+```
+## [AI Project](link to project)
+- {Direct quotes about this project that were stated in the provided data (if there are no quotes, write "no comments")}
+- {Thoughts on how it fits within emerging AI trends}
+```

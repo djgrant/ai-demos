@@ -1,0 +1,17 @@
+Using the data below scraped from the LocalLLama subreddit, write a report highlighting all the new AI projects or tools.
+
+1/ Pick ALL the projects or tools from the main threads or comments. For each project you'll also need to identify the associated hyperlink to the project. Create a list of these projects in the following format:
+
+```
+[AI Project](link to project)
+```
+
+2/ Produce a report that follows the following format for each project:
+  
+```
+## [AI Project](link to project)
+- {Direct quotes about this project that were stated in the provided data (if there are no quotes, write "no comments")}
+- {Thoughts on how it fits within emerging AI trends}
+```
+  
+Here is the data you can use to generate the report:

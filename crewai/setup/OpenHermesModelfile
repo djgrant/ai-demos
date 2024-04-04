@@ -1,0 +1,6 @@
+FROM openhermes
+
+PARAMETER temperature 0.8
+PARAMETER stop RESULT
+
+SYSTEM """"""

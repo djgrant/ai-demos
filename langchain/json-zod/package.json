@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "bun --env-file=../../.env index.ts"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.1.51",
+    "@langchain/openai": "^0.0.23",
+    "langchain": "^0.1.31",
+    "typescript": "^5.4.3",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.0.10"
+  }
+}
