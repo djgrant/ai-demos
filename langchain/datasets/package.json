@@ -1,5 +1,6 @@
 {
   "type": "module",
+  "name": "datasets",
   "scripts": {
     "start": "bun --env-file=../../.env index.ts"
   },

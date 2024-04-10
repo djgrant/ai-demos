@@ -1,0 +1,8 @@
+{
+  "type": "module",
+  "name": "ai-demos",
+  "workspaces": [
+    "./openai/*",
+    "./langchain/*"
+  ]
+}
