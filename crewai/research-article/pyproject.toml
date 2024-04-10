@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "crewai-research-article"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+crewai = {extras = ["tools"], version = "^0.28.7"}
+praw = "^7.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

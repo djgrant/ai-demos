@@ -96,7 +96,7 @@ crew = Crew(
     process=Process.sequential,  # Sequential process will have tasks executed one after the other and the outcome of the previous one is passed as extra content into this next.
 )
 
-# Get your crew to work!
+
 result = crew.kickoff()
 
 print("######################")
